@@ -34,10 +34,9 @@ The owners design and build every space themselves, from start to finish, and ho
 
 ## Operating Context
 
-- Current listings (5):
-  - Casa Maligaya: the private villa
-  - Casa Maligaya: the boutique loft
-  - Second property, currently "Cliff Tower" (being renamed): 3 listings, including the Penthouse (top floor)
+- Current listings (5), all in El Nido town (details and Airbnb links in `recherche/listings.md`):
+  - Casa Maligaya: private villa (2 bedrooms) and boutique design loft
+  - Second property, currently "Cliff Tower" (being renamed): The El Nido Penthouse, a spacious loft, and a stylish loft
 - Each property has or will have its own website and Instagram. Those sites link to El Nido Collection, e.g. "These dates aren't available. See our other stays."
 - Booking today: links to the Airbnb listings. Later: a search and booking engine connected to a PMS.
 - Instagram: @elnidocollection and an "El Nido Stays" handle are secured; property accounts are @penthouse.elnido and @casa.maligaya.
@@ -49,7 +48,7 @@ The owners design and build every space themselves, from start to finish, and ho
 - Later: availability search across stays, direct booking or inquiry through a PMS.
 - The structure must scale from 5 listings to more properties without a redesign.
 - No "Airbnb" in the brand name or domain (Airbnb trademark). Linking to Airbnb listings is fine.
-- Undecided: the new name of the Cliff Tower property; the exact listing names and Airbnb URLs.
+- Undecided: the new name of the Cliff Tower property.
 
 ## Brand Commitments
 
@@ -60,10 +59,11 @@ The owners design and build every space themselves, from start to finish, and ho
 
 ## Evidence on Hand
 
-Confirmed as available, values still to be supplied by the owner:
-- Airbnb Superhost status
-- Airbnb rating and number of reviews
-- Real guest review quotes (first name only)
+From the public Airbnb host profile (read 2026-10-28, details in `recherche/listings.md`):
+- Airbnb Superhost
+- 611 reviews, 4.96 average rating, 5 years of hosting
+- Per listing: 4.94 to 5.0 rating
+- Real guest review quotes (first name only; owner picks the final ones)
 
 Not available: press features. Do not invent ratings, review counts, quotes, years of hosting or awards. Use only what the owner provides.
 
