@@ -50,10 +50,16 @@ Every decision with a date, so it isn't re-discussed.
 - 2026-10-28: Main goal = showcase + link to Airbnb now; direct booking later with a PMS.
 - 2026-10-28: Hosting on Cloudflare; user buys domains.
 - 2026-10-28: Use DataForSEO for research.
+- 2026-10-28: Scope El Nido only. Listings: Casa Maligaya (private villa + boutique loft); second property "Cliff Tower" (renaming, 3 listings incl. Penthouse).
+- 2026-10-28: No "Airbnb" in the name (trademark). Owner leans "El Nido Stays"; shortlist in recherche/namen.md.
+- 2026-10-28: Positioning: elevated / luxe end of El Nido, owner-designed and owner-built, personal family hosting, one shared design language.
+- 2026-10-28: Plans: shared Instagram, blog for SEO/GEO, property sites link here ("dates unavailable → see our other stays"), search/booking engine later.
+- 2026-10-28: No design references yet; owner imagines an Airbnb-like overview. Collect references in Phase 2.
 
 ## Open questions
 
-- Phase 1 questions (umbrella name, visitors, proof, listing details) — asked 2026-10-28.
+- Pick the umbrella name and check .com + Instagram handle in Cloudflare Registrar.
+- Still open from Phase 1: listing names + Airbnb links, proof (Superhost, rating, reviews), what stays off the page.
 
 ## Update workflow after go-live
 
