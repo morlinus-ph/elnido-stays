@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logo In Use</title>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#1d1b18; --paper:#f4f0e8; --muted:#6d675d; --line:#d9d2c4; --serif:"Newsreader",Georgia,serif; --sans:"Inter",system-ui,sans-serif; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:#fbf9f5; color:var(--ink); font-family:var(--sans); line-height:1.5; }
+  header, main { max-width:1100px; margin:0 auto; padding:0 16px; }
+  header { padding:48px 16px 16px; }
+  h1 { font-family:var(--serif); font-weight:400; font-size:clamp(28px,4vw,40px); margin:0 0 8px; }
+  header p { color:var(--muted); max-width:700px; margin:0 0 8px; }
+  .option { border-top:1px solid var(--line); padding:32px 0; }
+  .option h2 { font-family:var(--serif); font-weight:500; font-size:26px; margin:0 0 4px; }
+  .option > p { color:var(--muted); max-width:720px; margin:0 0 20px; }
+  .tag { font-family:var(--sans); font-size:13px; padding:2px 10px; border-radius:99px; background:var(--ink); color:var(--paper); vertical-align:middle; margin-left:8px; }
+  .grid { display:grid; grid-template-columns:2fr 1fr 1fr; gap:12px; }
+  @media (max-width:760px){ .grid { grid-template-columns:1fr; } }
+  .card { border-radius:10px; overflow:hidden; position:relative; min-height:220px; }
+  .card small { position:absolute; left:12px; bottom:8px; font-size:11px; opacity:.6; }
+  /* website header mockup */
+  .site { background:var(--paper); display:flex; flex-direction:column; }
+  .nav { display:flex; align-items:center; justify-content:space-between; padding:18px 22px; border-bottom:1px solid var(--line); gap:12px; }
+  .navlinks { display:flex; gap:18px; font-size:12px; color:var(--muted); }
+  @media (max-width:520px){ .navlinks { display:none; } }
+  .hero { flex:1; display:flex; align-items:center; padding:28px 22px 40px; }
+  .hero b { font-family:var(--serif); font-weight:400; font-size:28px; line-height:1.15; max-width:340px; }
+  .lockup { display:flex; align-items:center; gap:12px; }
+  .lockup svg { width:40px; height:40px; }
+  .wm { display:flex; flex-direction:column; line-height:1; }
+  .wm b { font-family:var(--serif); font-weight:400; font-size:22px; }
+  .wm span { font-size:8px; letter-spacing:.38em; margin-top:5px; padding-left:1px; }
+  /* instagram */
+  .ig { background:#fff; border:1px solid var(--line); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px; padding:20px; }
+  .avatar { width:96px; height:96px; border-radius:50%; background:var(--ink); color:var(--paper); display:grid; place-items:center; }
+  .avatar svg { width:62%; height:62%; }
+  .ig .handle { font-size:14px; font-weight:500; }
+  .ig .sub { font-size:12px; color:var(--muted); margin-top:-8px; }
+  /* tab + card */
+  .misc { background:var(--ink); color:var(--paper); display:flex; flex-direction:column; justify-content:center; align-items:center; gap:22px; padding:20px; }
+  .tab { background:#2c2925; border-radius:8px 8px 0 0; padding:8px 14px; display:flex; align-items:center; gap:8px; font-size:12px; color:#d8d2c6; width:190px; }
+  .fav { width:16px; height:16px; border-radius:4px; background:var(--paper); color:var(--ink); display:grid; place-items:center; flex:none; }
+  .fav svg { width:80%; height:80%; }
+  .welcome { background:var(--paper); color:var(--ink); width:150px; height:96px; border-radius:4px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; }
+  .welcome svg { width:34px; height:34px; }
+  .welcome span { font-family:var(--serif); font-size:12px; }
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- Karst, refined (round 2, no. 1) -->
+    <symbol id="karst" viewBox="0 0 64 64">
+      <path d="M4 46 C6 40 8 30 12 26 C15 23 17 30 19 32 C21 24 24 14 29 12 C33 11 35 20 37 26 C39 22 41 20 44 21 C49 23 52 36 60 46 Z" opacity=".38"/>
+      <path d="M14 46 C17 40 19 34 23 33 C26 32 27 37 29 38 C31 33 33 27 37 27 C41 27 44 38 50 46 Z"/>
+      <path d="M6 50.5 Q32 48.6 58 50.5 Q32 52.4 6 50.5 Z" opacity=".7"/>
+      <path d="M17 56 Q32 54.8 47 56 Q32 57.2 17 56 Z" opacity=".4"/>
+    </symbol>
+    <!-- Arch badge with the SAME karst cut out, so the two belong together -->
+    <mask id="badgeMask" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <rect width="64" height="64" fill="#fff"/>
+      <g transform="translate(12.8 14) scale(.6)">
+        <path d="M4 46 C6 40 8 30 12 26 C15 23 17 30 19 32 C21 24 24 14 29 12 C33 11 35 20 37 26 C39 22 41 20 44 21 C49 23 52 36 60 46 Z" fill="#7a7a7a"/>
+        <path d="M14 46 C17 40 19 34 23 33 C26 32 27 37 29 38 C31 33 33 27 37 27 C41 27 44 38 50 46 Z" fill="#000"/>
+        <path d="M6 50.5 Q32 48.6 58 50.5 Q32 52.4 6 50.5 Z" fill="#000"/>
+        <path d="M17 56 Q32 54.8 47 56 Q32 57.2 17 56 Z" fill="#000"/>
+      </g>
+    </mask>
+    <symbol id="badge" viewBox="0 0 64 64">
+      <path mask="url(#badgeMask)" d="M14 56 V28 A18 18 0 0 1 50 28 V56 Z"/>
+    </symbol>
+    <!-- Cliffs through an arched window (round 2, no. 2) -->
+    <clipPath id="clipInnerArch"><path d="M17 58 V28 A15 15 0 0 1 47 28 V58 Z"/></clipPath>
+    <symbol id="window" viewBox="0 0 64 64">
+      <path d="M12 58 V28 A20 20 0 0 1 52 28 V58 H47 V28 A15 15 0 0 0 17 28 V58 Z"/>
+      <g clip-path="url(#clipInnerArch)">
+        <path d="M14 47 C18 36 20 26 25 24 C29 23 30 32 33 33 C35 27 38 19 42 19 C46 19 48 34 52 47 Z" opacity=".35"/>
+        <path d="M14 47 C19 43 22 38 26 38 C30 38 30 42 33 42 C36 42 37 32 41 32 C45 32 47 42 52 47 Z" opacity=".85"/>
+        <path d="M17 51.5 Q32 50.2 47 51.5 Q32 52.8 17 51.5 Z" opacity=".55"/>
+        <path d="M22 55.5 Q32 54.6 42 55.5 Q32 56.4 22 55.5 Z" opacity=".35"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<header>
+  <h1>Three ways to use the logo</h1>
+  <p>You don't have to pick one shape for everything. Most hotel brands have a main logo for the website and a compact icon for small places: the Instagram profile picture, the browser tab, a stamp on a welcome card.</p>
+  <p>Here are three combinations, each shown on a website header, an Instagram profile, a browser tab and a welcome card. Still black and cream; colours come in Phase 2.</p>
+</header>
+<main id="options"></main>
+
+<script>
+const options = [
+  { title: "A · Karst everywhere", tag: "",
+    text: "The refined cliffs as both logo and icon. The most open and premium-looking, as you said. It works well in the round Instagram picture. The downsides: in the browser tab the cliffs blur into a smudge, and nothing in it refers to your arches.",
+    main: "karst", icon: "karst" },
+  { title: "B · Karst logo, arch icon", tag: "My recommendation",
+    text: "The refined cliffs as the main logo, and the same cliffs cut out of an arch as the icon. You keep the premium look where people see the logo large, and the arch shows up exactly where a compact, solid shape works best. Both use the same cliff drawing, so they clearly belong together.",
+    main: "karst", icon: "badge" },
+  { title: "C · Window logo, arch icon", tag: "",
+    text: "Cliffs seen through an arched window as the main logo, with the arch badge as the icon. The strongest link to your concept everywhere, but more framed and less airy than A and B, so it reads a little less premium.",
+    main: "window", icon: "badge" }
+];
+const u = id => `<svg viewBox="0 0 64 64" fill="currentColor" aria-hidden="true"><use href="#${id}"/></svg>`;
+document.getElementById("options").innerHTML = options.map(o => `
+  <section class="option">
+    <h2>${o.title}${o.tag ? `<span class="tag">${o.tag}</span>` : ""}</h2>
+    <p>${o.text}</p>
+    <div class="grid">
+      <div class="card site">
+        <div class="nav"><div class="lockup">${u(o.main)}<div class="wm"><b>El Nido</b><span>COLLECTION</span></div></div>
+          <div class="navlinks"><span>Stays</span><span>El Nido</span><span>Journal</span><span>Contact</span></div></div>
+        <div class="hero"><b>Example headline. Real copy comes in Phase 3.</b></div>
+        <small>website header</small>
+      </div>
+      <div class="card ig"><div class="avatar">${u(o.icon)}</div><div class="handle">elnidocollection</div><div class="sub">Instagram profile</div></div>
+      <div class="card misc">
+        <div class="tab"><span class="fav">${u(o.icon)}</span>El Nido Collection</div>
+        <div class="welcome">${u(o.icon)}<span>Welcome</span></div>
+        <small>browser tab · welcome card</small>
+      </div>
+    </div>
+  </section>`).join("");
+</script>
+</body>
+</html>
