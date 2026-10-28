@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logo Round 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1d1b18;
+    --paper: #f4f0e8;
+    --muted: #6d675d;
+    --line: #d9d2c4;
+    --serif: "Newsreader", "Iowan Old Style", Georgia, serif;
+    --sans: "Inter", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #fbf9f5; color: var(--ink); font-family: var(--sans); line-height: 1.5; }
+  header, main { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+  header { padding-top: 48px; padding-bottom: 24px; }
+  h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(28px, 4vw, 40px); margin: 0 0 8px; }
+  header p { color: var(--muted); max-width: 680px; margin: 0 0 8px; }
+  .concept { border-top: 1px solid var(--line); padding: 32px 0; }
+  .concept-head { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; margin-bottom: 4px; }
+  .num { font-family: var(--serif); font-size: 32px; color: var(--muted); }
+  h2 { font-family: var(--serif); font-weight: 500; font-size: 24px; margin: 0; }
+  .verdict { font-size: 13px; padding: 2px 10px; border-radius: 99px; border: 1px solid var(--line); }
+  .verdict.strong { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .verdict.weak { color: var(--muted); }
+  .meaning { color: var(--muted); max-width: 720px; margin: 0 0 20px; }
+  .row { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+  .tile { border-radius: 10px; min-height: 170px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 16px; position: relative; }
+  .tile small { position: absolute; left: 12px; bottom: 8px; font-size: 11px; opacity: .6; }
+  .light { background: var(--paper); color: var(--ink); }
+  .dark { background: var(--ink); color: var(--paper); }
+  .mono { background: #fff; color: #000; border: 1px solid var(--line); }
+  .lockup-tile { grid-column: span 2; }
+  .mark { width: 88px; height: 88px; }
+  .lockup { display: flex; align-items: center; gap: 14px; }
+  .lockup .mark { width: 52px; height: 52px; }
+  .wm { display: flex; flex-direction: column; line-height: 1; }
+  .wm b { font-family: var(--serif); font-weight: 400; font-size: 30px; letter-spacing: .01em; }
+  .wm span { font-size: 10px; letter-spacing: .38em; margin-top: 6px; padding-left: 2px; }
+  .favs { display: flex; align-items: end; gap: 14px; }
+  .fav { background: var(--ink); color: var(--paper); display: grid; place-items: center; }
+  .fav svg { width: 74%; height: 74%; }
+  .f32 { width: 32px; height: 32px; border-radius: 7px; }
+  .f16 { width: 16px; height: 16px; border-radius: 4px; }
+  .wordonly { font-family: var(--serif); font-size: 15px; font-weight: 500; letter-spacing: -.02em; }
+  @media (max-width: 560px) { .lockup-tile { grid-column: span 1; } .wm b { font-size: 24px; } }
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- 1 Woven nest: three tapered crescents -->
+    <symbol id="m1" viewBox="0 0 64 64">
+      <path d="M10 26 A22 18 0 0 0 54 26 A22 11 0 0 1 10 26 Z" transform="rotate(-14 32 32)"/>
+ <path d="M10 26 A22 18 0 0 0 54 26 A22 11 0 0 1 10 26 Z" transform="rotate(14 32 32)" opacity=".75"/>
+ <path d="M14 34 A18 13 0 0 0 50 34 A18 8 0 0 1 14 34 Z" transform="rotate(-6 32 38)" opacity=".55"/>
+ <path d="M14 34 A18 13 0 0 0 50 34 A18 8 0 0 1 14 34 Z" transform="rotate(6 32 38)" opacity=".4"/>
+      
+      
+    </symbol>
+    <!-- 2 Karst cliffs in three tones -->
+    <symbol id="m2" viewBox="0 0 64 64">
+      <path d="M8 48 C11 30 15 17 21 15 C26 14 27 27 31 29 C34 21 37 11 43 11 C49 11 52 30 58 48 Z" opacity=".38"/>
+      <path d="M2 48 C8 39 12 33 17 33 C22 33 23 41 27 41 C31 41 32 26 38 26 C44 26 48 42 62 48 Z"/>
+      <rect x="6" y="52" width="52" height="2.4" rx="1.2" opacity=".55"/>
+      <rect x="16" y="57" width="32" height="2.4" rx="1.2" opacity=".3"/>
+    </symbol>
+    <!-- 3 Arch within arch -->
+    <symbol id="m3" viewBox="0 0 64 64">
+      <path d="M14 58 V28 A18 18 0 0 1 50 28 V58 H45.5 V28 A13.5 13.5 0 0 0 18.5 28 V58 Z"/>
+      <path d="M24 58 V33 A8 8 0 0 1 40 33 V58 Z" opacity=".6"/>
+    </symbol>
+    <!-- 4 Swiftlet (balinsasayaw), the bird El Nido is named after -->
+    <symbol id="m4" viewBox="0 0 64 64">
+      <path d="M32 24 C27 21 17 19 3 22 C14 23.5 22 27 28.5 31.5 L25.5 47 L32 39.5 L38.5 47 L35.5 31.5 C42 27 50 23.5 61 22 C47 19 37 21 32 24 Z"/>
+      <circle cx="32" cy="22.5" r="3.6"/>
+    </symbol>
+    <!-- 5 Five arches: five stays, one design language -->
+    <symbol id="m5" viewBox="0 0 64 64">
+      <path d="M5 52 V31 A4 4 0 0 1 13 31 V52 Z" opacity=".45"/>
+      <path d="M16 52 V21 A4 4 0 0 1 24 21 V52 Z" opacity=".75"/>
+      <path d="M27 52 V14 A5 5 0 0 1 37 14 V52 Z"/>
+      <path d="M40 52 V24 A4 4 0 0 1 48 24 V52 Z" opacity=".75"/>
+      <path d="M51 52 V35 A4 4 0 0 1 59 35 V52 Z" opacity=".45"/>
+      <rect x="3" y="55" width="58" height="2.4" rx="1.2"/>
+    </symbol>
+    <!-- 6 Woven ring: five crescents turning around a centre -->
+    <symbol id="m6" viewBox="0 0 64 64">
+      <g id="m6c"><path d="M12 32 A20 20 0 0 0 52 32 A20 12 0 0 1 12 32 Z"/></g>
+      <use href="#m6c" transform="rotate(72 32 32)" opacity=".8"/>
+      <use href="#m6c" transform="rotate(144 32 32)" opacity=".62"/>
+      <use href="#m6c" transform="rotate(216 32 32)" opacity=".8"/>
+      <use href="#m6c" transform="rotate(288 32 32)" opacity=".62"/>
+    </symbol>
+    <!-- 7 Sun over the bay -->
+    <symbol id="m7" viewBox="0 0 64 64">
+      <path d="M14 38 A18 18 0 0 1 50 38 Z"/>
+      <rect x="6" y="43" width="52" height="3" rx="1.5" opacity=".7"/>
+      <rect x="14" y="50" width="36" height="3" rx="1.5" opacity=".45"/>
+    </symbol>
+    <!-- 8 Monogram EN (wordmark-led) -->
+    <symbol id="m8" viewBox="0 0 64 64">
+      <text x="32" y="44" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-size="34" letter-spacing="-2">EN</text>
+    </symbol>
+    <!-- 9 Seal -->
+    <symbol id="m9" viewBox="0 0 64 64">
+      <path id="sealpath" d="M32 32 m-24 0 a24 24 0 1 1 48 0 a24 24 0 1 1 -48 0" fill="none"/>
+      <text font-family="Inter, sans-serif" font-size="5" letter-spacing="1.3"><textPath href="#sealpath" textLength="148">EL NIDO COLLECTION · PALAWAN ·</textPath></text>
+      <g transform="translate(16 16) scale(.5)">
+        <path d="M10 26 A22 18 0 0 0 54 26 A22 11 0 0 1 10 26 Z" transform="rotate(-14 32 32)"/>
+ <path d="M10 26 A22 18 0 0 0 54 26 A22 11 0 0 1 10 26 Z" transform="rotate(14 32 32)" opacity=".75"/>
+ <path d="M14 34 A18 13 0 0 0 50 34 A18 8 0 0 1 14 34 Z" transform="rotate(-6 32 38)" opacity=".55"/>
+ <path d="M14 34 A18 13 0 0 0 50 34 A18 8 0 0 1 14 34 Z" transform="rotate(6 32 38)" opacity=".4"/>
+        
+        
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<header>
+  <h1>El Nido Collection: logo round 1</h1>
+  <p>Nine directions for the shape of the mark. Each is shown on light, on dark, in one colour, next to the name, and as a browser icon at 32 and 16 pixels.</p>
+  <p>This round is about shape only, so everything is black and cream. Colours come in Phase 2, and the typeface in the name is a stand-in until Phase 4.</p>
+  <p><strong>What the name holds:</strong> <em>El Nido</em> means "the nest". The town is named after the swiftlet nests in its limestone cliffs. <em>Collection</em> means separate stays that share one design language.</p>
+</header>
+
+<main id="concepts"></main>
+
+<script>
+const concepts = [
+  { n: 1, name: "Woven nest", verdict: "strong", label: "Recommended",
+    meaning: "Tapered strokes crossing into a bowl, like a woven nest. It shows the meaning of the name without drawing a literal bird's nest, and the crossing strands recall woven rattan. It stays readable at 16 px. Honest catch: at small sizes it can still read a little like a smile. Round 2 would make the bowl deeper." },
+  { n: 2, name: "Karst cliffs", verdict: "", label: "Solid",
+    meaning: "El Nido's limestone towers over the water, layered in three tones. Instantly local. The catch: cliff-and-sea marks are common among El Nido tour operators, and the detail is lost at 16 px." },
+  { n: 3, name: "Arch within arch", verdict: "", label: "Solid",
+    meaning: "A doorway inside a doorway: a home inside El Nido. Calm and architectural, and it suits owners who design their own spaces. But arches are everywhere in hospitality branding, so it's less ownable." },
+  { n: 4, name: "Swiftlet", verdict: "strong", label: "Recommended",
+    meaning: "The balinsasayaw, the swiftlet whose nests gave El Nido its name. It tells the real story behind the name, works as a simple icon, and could fly across Instagram content. Needs care so it doesn't read as a generic swallow." },
+  { n: 5, name: "Five arches", verdict: "", label: "Good story",
+    meaning: "Five stays, one design language, each a different height. It tells the collection idea exactly. The catch: it is tied to the number five, and it turns muddy at 16 px." },
+  { n: 6, name: "Woven ring", verdict: "", label: "Mixed",
+    meaning: "Five crescents turning around a centre: a woven nest seen from above, and five stays in one circle. Distinctive and works as an icon. It can read as a flower or a camera shutter." },
+  { n: 7, name: "Sun over the bay", verdict: "weak", label: "Weak",
+    meaning: "Sunset over Bacuit Bay. Shown honestly: this is the most generic option. Thousands of beach businesses use it, and it says nothing about design or the name." },
+  { n: 8, name: "Wordmark only", verdict: "", label: "Safe",
+    meaning: "No symbol, just the name in a refined serif, with an EN monogram as the icon. Very elegant, like a boutique hotel. Works well once the typeface is set, but gives Instagram and the favicon little to work with." },
+  { n: 9, name: "Seal", verdict: "", label: "Add-on",
+    meaning: "A round seal with the woven nest in the centre. Better as a second mark for stickers, welcome cards and photo watermarks than as the main logo. The text is unreadable when small." }
+];
+
+const use = (id, cls="mark") => `<svg class="${cls}" viewBox="0 0 64 64" fill="currentColor" aria-hidden="true"><use href="#${id}"/></svg>`;
+const lockup = id => `<div class="lockup">${use(id)}<div class="wm"><b>El Nido</b><span>COLLECTION</span></div></div>`;
+
+document.getElementById("concepts").innerHTML = concepts.map(c => {
+  const id = "m" + c.n;
+  return `<section class="concept">
+    <div class="concept-head"><span class="num">${c.n}</span><h2>${c.name}</h2><span class="verdict ${c.verdict}">${c.label}</span></div>
+    <p class="meaning">${c.meaning}</p>
+    <div class="row">
+      <div class="tile light">${use(id)}<small>on light</small></div>
+      <div class="tile dark">${use(id)}<small>on dark</small></div>
+      <div class="tile mono">${use(id)}<small>one colour</small></div>
+      <div class="tile light lockup-tile">${lockup(id)}<small>with name</small></div>
+      <div class="tile dark lockup-tile">${lockup(id)}<small>with name, dark</small></div>
+      <div class="tile light"><div class="favs"><div class="fav f32">${use(id,"")}</div><div class="fav f16">${use(id,"")}</div></div><small>icon 32 / 16 px</small></div>
+    </div>
+  </section>`;
+}).join("");
+</script>
+</body>
+</html>

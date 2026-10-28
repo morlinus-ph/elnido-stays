@@ -55,11 +55,13 @@ Every decision with a date, so it isn't re-discussed.
 - 2026-10-28: Positioning: elevated / luxe end of El Nido, owner-designed and owner-built, personal family hosting, one shared design language.
 - 2026-10-28: Plans: shared Instagram, blog for SEO/GEO, property sites link here ("dates unavailable → see our other stays"), search/booking engine later.
 - 2026-10-28: Favourite name: El Nido Collection (with "El"); also buy elnidostays.com as a redirect if free. Owner checks domains personally.
+- 2026-10-28: NAME CHOSEN: El Nido Collection. elnidocollection.com is available; owner to buy via Cloudflare Registrar.
 - 2026-10-28: No design references yet; owner imagines an Airbnb-like overview. Collect references in Phase 2.
 
 ## Open questions
 
-- Owner checks: elnidocollection.com / theelnidocollection.com, elnidostays.com, Instagram handle, IPOPHL trademark search (watch El Nido Resorts).
+- Owner: buy elnidocollection.com (+ elnidostays.com if free), secure @elnidocollection on Instagram, IPOPHL trademark search (watch El Nido Resorts).
+- Logo round 1: owner picks 1–2 concepts from logo/entwuerfe/runde-1.html.
 - Still open from Phase 1: listing names + Airbnb links, proof (Superhost, rating, reviews), what stays off the page.
 
 ## Update workflow after go-live
