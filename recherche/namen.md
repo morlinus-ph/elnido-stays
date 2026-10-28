@@ -39,3 +39,13 @@ Brief from the owner: El Nido only for now. 5 listings on 2 properties (Casa Mal
 
 Domain and Instagram availability: the owner checks these in Cloudflare Registrar and on Instagram. The cloud session can't reach RDAP or WHOIS.
 Trademark: search the IPOPHL register (Philippines) for the favourite. This is not legal advice; a free domain says nothing about trademark rights.
+
+## Follow-up 2026-10-28: "The Nido Collection" vs "El Nido Collection"
+
+The owner prefers **El Nido Collection**. Checks:
+
+- "nido" alone: 9,900 searches/mo in the Philippines, mostly Nestlé's NIDO milk brand. Without "El", Filipino readers think of milk, not the place.
+- "The Nido Collection" is already a brand: a student housing company in London (West Hampstead). There is also "Nido, Mar-Bella Collection", a hotel in Corfu.
+- "El Nido Collection": no business found. Searches: ~10/mo, so the name is free to claim on Google.
+- Watch out: El Nido Resorts (3,600 searches/mo) is a large resort group that already presents its resorts as a collection. Check IPOPHL for "El Nido" marks in hospitality (class 43) before buying. Not legal advice.
+- Recommendation: El Nido Collection as the brand, elnidostays.com as an extra domain that redirects to it.

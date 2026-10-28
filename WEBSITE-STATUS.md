@@ -54,11 +54,12 @@ Every decision with a date, so it isn't re-discussed.
 - 2026-10-28: No "Airbnb" in the name (trademark). Owner leans "El Nido Stays"; shortlist in recherche/namen.md.
 - 2026-10-28: Positioning: elevated / luxe end of El Nido, owner-designed and owner-built, personal family hosting, one shared design language.
 - 2026-10-28: Plans: shared Instagram, blog for SEO/GEO, property sites link here ("dates unavailable → see our other stays"), search/booking engine later.
+- 2026-10-28: Favourite name: El Nido Collection (with "El"); also buy elnidostays.com as a redirect if free. Owner checks domains personally.
 - 2026-10-28: No design references yet; owner imagines an Airbnb-like overview. Collect references in Phase 2.
 
 ## Open questions
 
-- Pick the umbrella name and check .com + Instagram handle in Cloudflare Registrar.
+- Owner checks: elnidocollection.com / theelnidocollection.com, elnidostays.com, Instagram handle, IPOPHL trademark search (watch El Nido Resorts).
 - Still open from Phase 1: listing names + Airbnb links, proof (Superhost, rating, reviews), what stays off the page.
 
 ## Update workflow after go-live
