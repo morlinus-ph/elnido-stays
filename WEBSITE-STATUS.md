@@ -57,13 +57,17 @@ Every decision with a date, so it isn't re-discussed.
 - 2026-10-28: Favourite name: El Nido Collection (with "El"); also buy elnidostays.com as a redirect if free. Owner checks domains personally.
 - 2026-10-28: NAME CHOSEN: El Nido Collection. elnidocollection.com BOUGHT. elnidostays.com taken (only elnidostays.ph, $45/yr: recommended to skip). Instagram: @elnidocollection and El Nido Stays handle secured.
 - 2026-10-28: Logo round 1: owner favours 2 Karst cliffs (fits El Nido) and 3 Arch within arch (fits the arches in the stays). Wants connection to the concept over pure looks.
+- 2026-10-28: LOGO: combination B. Karst cliffs = main logo, arch with the same cliffs cut out = icon. Monochrome family in logo/final/ (vorschau.html). Owner: "we can always change it if needed". Colour after Phase 2; wordmark gets outlined once the typeface is set.
+- 2026-10-28: Stack: Astro on Cloudflare Pages.
+- 2026-10-28: Key visitors: guests of one property (overflow), social/collab traffic, Google & AI searchers. Owners seeking management: later.
+- 2026-10-28: Proof available: Superhost, rating + review count, guest quotes (numbers still to come). Keep off the site: prices, exact addresses, owners' names/photos.
 - 2026-10-28: No design references yet; owner imagines an Airbnb-like overview. Collect references in Phase 2.
 
 ## Open questions
 
 - Owner: IPOPHL trademark search (watch El Nido Resorts).
-- Logo round 2: owner picks one from logo/entwuerfe/runde-2.html.
-- Still open from Phase 1: listing names + Airbnb links, proof (Superhost, rating, reviews), what stays off the page.
+- Phase 1 sign-off: owner confirms brand summary + PRODUCT.md.
+- Needed before Phase 3: the 5 listing names + Airbnb links, rating, review count, 3–5 guest quotes, new name of Cliff Tower.
 
 ## Update workflow after go-live
 
