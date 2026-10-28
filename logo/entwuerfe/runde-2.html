@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logo Round 2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1d1b18;
+    --paper: #f4f0e8;
+    --muted: #6d675d;
+    --line: #d9d2c4;
+    --serif: "Newsreader", "Iowan Old Style", Georgia, serif;
+    --sans: "Inter", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #fbf9f5; color: var(--ink); font-family: var(--sans); line-height: 1.5; }
+  header, main { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+  header { padding-top: 48px; padding-bottom: 24px; }
+  h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(28px, 4vw, 40px); margin: 0 0 8px; }
+  header p { color: var(--muted); max-width: 680px; margin: 0 0 8px; }
+  .concept { border-top: 1px solid var(--line); padding: 32px 0; }
+  .concept-head { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; margin-bottom: 4px; }
+  .num { font-family: var(--serif); font-size: 32px; color: var(--muted); }
+  h2 { font-family: var(--serif); font-weight: 500; font-size: 24px; margin: 0; }
+  .verdict { font-size: 13px; padding: 2px 10px; border-radius: 99px; border: 1px solid var(--line); }
+  .verdict.strong { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .verdict.weak { color: var(--muted); }
+  .meaning { color: var(--muted); max-width: 720px; margin: 0 0 20px; }
+  .row { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+  .tile { border-radius: 10px; min-height: 170px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 16px; position: relative; }
+  .tile small { position: absolute; left: 12px; bottom: 8px; font-size: 11px; opacity: .6; }
+  .light { background: var(--paper); color: var(--ink); }
+  .dark { background: var(--ink); color: var(--paper); }
+  .mono { background: #fff; color: #000; border: 1px solid var(--line); }
+  .lockup-tile { grid-column: span 2; }
+  .mark { width: 88px; height: 88px; }
+  .lockup { display: flex; align-items: center; gap: 14px; }
+  .lockup .mark { width: 52px; height: 52px; }
+  .wm { display: flex; flex-direction: column; line-height: 1; }
+  .wm b { font-family: var(--serif); font-weight: 400; font-size: 30px; letter-spacing: .01em; }
+  .wm span { font-size: 10px; letter-spacing: .38em; margin-top: 6px; padding-left: 2px; }
+  .favs { display: flex; align-items: end; gap: 14px; }
+  .fav { background: var(--ink); color: var(--paper); display: grid; place-items: center; }
+  .fav svg { width: 74%; height: 74%; }
+  .f32 { width: 32px; height: 32px; border-radius: 7px; }
+  .f16 { width: 16px; height: 16px; border-radius: 4px; }
+  .wordonly { font-family: var(--serif); font-size: 15px; font-weight: 500; letter-spacing: -.02em; }
+  @media (max-width: 560px) { .lockup-tile { grid-column: span 1; } .wm b { font-size: 24px; } }
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- shared pieces -->
+    <clipPath id="clipInnerArch"><path d="M17 58 V28 A15 15 0 0 1 47 28 V58 Z"/></clipPath>
+    <mask id="maskC" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <rect width="64" height="64" fill="#fff"/>
+      <path d="M14 47 Q32 45.6 50 47 Q32 48.4 14 47 Z" fill="#000"/>
+      <path d="M20 52 Q32 51 44 52 Q32 53 20 52 Z" fill="#000"/>
+    </mask>
+    <mask id="maskE" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <rect width="64" height="64" fill="#fff"/>
+      <path d="M14 47 C18 40 21 33 25 32 C29 31 29 38 32 38 C35 38 36 25 41 24 C45 24 47 37 50 44 V47 Z" fill="#000"/>
+      <path d="M18 51.5 Q32 50.2 46 51.5 Q32 52.8 18 51.5 Z" fill="#000"/>
+    </mask>
+
+    <!-- A Karst refined -->
+    <symbol id="m1" viewBox="0 0 64 64">
+      <path d="M4 46 C6 40 8 30 12 26 C15 23 17 30 19 32 C21 24 24 14 29 12 C33 11 35 20 37 26 C39 22 41 20 44 21 C49 23 52 36 60 46 Z" opacity=".38"/>
+      <path d="M14 46 C17 40 19 34 23 33 C26 32 27 37 29 38 C31 33 33 27 37 27 C41 27 44 38 50 46 Z"/>
+      <path d="M6 50.5 Q32 48.6 58 50.5 Q32 52.4 6 50.5 Z" opacity=".7"/>
+      <path d="M17 56 Q32 54.8 47 56 Q32 57.2 17 56 Z" opacity=".4"/>
+    </symbol>
+    <!-- B Karst through an arched window -->
+    <symbol id="m2" viewBox="0 0 64 64">
+      <path d="M12 58 V28 A20 20 0 0 1 52 28 V58 H47 V28 A15 15 0 0 0 17 28 V58 Z"/>
+      <g clip-path="url(#clipInnerArch)">
+        <path d="M14 47 C18 36 20 26 25 24 C29 23 30 32 33 33 C35 27 38 19 42 19 C46 19 48 34 52 47 Z" opacity=".35"/>
+        <path d="M14 47 C19 43 22 38 26 38 C30 38 30 42 33 42 C36 42 37 32 41 32 C45 32 47 42 52 47 Z" opacity=".85"/>
+        <path d="M17 51.5 Q32 50.2 47 51.5 Q32 52.8 17 51.5 Z" opacity=".55"/>
+        <path d="M22 55.5 Q32 54.6 42 55.5 Q32 56.4 22 55.5 Z" opacity=".35"/>
+      </g>
+    </symbol>
+    <!-- C Arch with a karst skyline as its top -->
+    <symbol id="m3" viewBox="0 0 64 64">
+      <path mask="url(#maskC)" d="M14 58 V36 C14 30 16 25 19.5 25 C22.5 25 23.5 30 26 30 C28 21 30.5 10 35 10 C39.5 10 41.5 22 43.5 27 C45 24.5 46.5 24 47.8 25.5 C49.5 27.5 50 32 50 36 V58 Z"/>
+    </symbol>
+    <!-- D Karst towers drawn as arches -->
+    <symbol id="m4" viewBox="0 0 64 64">
+      <path d="M8 47 V31 C8 26.5 10 23 13 23 C16 23 18 26.5 18 31 V47 Z" opacity=".5"/>
+      <path d="M21 47 V20 C21 14 23.5 9.5 27 9.5 C30 9.5 32 13.5 32 18 V47 Z"/>
+      <path d="M35 47 V25 C35 20 37.5 16 41 16 C44.5 16 46 20.5 46 25 V47 Z" opacity=".75"/>
+      <path d="M49 47 V35 C49 31.5 50.5 29 53 29 C55.5 29 57 31.5 57 35 V47 Z" opacity=".45"/>
+      <path d="M5 51.5 Q32 49.6 59 51.5 Q32 53.4 5 51.5 Z" opacity=".7"/>
+      <path d="M16 57 Q32 55.8 48 57 Q32 58.2 16 57 Z" opacity=".4"/>
+    </symbol>
+    <!-- E Solid arch badge with karst cut out -->
+    <symbol id="m5" viewBox="0 0 64 64">
+      <path mask="url(#maskE)" d="M14 58 V28 A18 18 0 0 1 50 28 V58 Z"/>
+    </symbol>
+    <!-- F Monoline arch and cliffs -->
+    <symbol id="m6" viewBox="0 0 64 64">
+      <g fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14 58 V28 A18 18 0 0 1 50 28 V58"/>
+        <path d="M14 45 C18 41 21 35 25 35 C29 35 29.5 40 32.5 40 C35.5 40 36.5 28 41 28 C45 28 47 38 50 42"/>
+        <path d="M21 51 H43" opacity=".6"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<header>
+  <h1>El Nido Collection: logo round 2</h1>
+  <p>You picked <strong>Karst cliffs</strong> (it fits El Nido) and <strong>Arch within arch</strong> (it fits the arches in your stays). Round 2 refines the cliffs and combines them with the arch in six ways.</p>
+  <p>Still shape only: black and cream. Colours come in Phase 2, and the typeface in the name is a stand-in until Phase 4.</p>
+  <p><strong>The idea behind combining them:</strong> the cliffs say <em>where</em> you are. The arch says <em>how</em> you build: one design language across all your stays.</p>
+</header>
+
+<main id="concepts"></main>
+
+<script>
+const concepts = [
+  { n: 1, name: "Karst, refined", verdict: "", label: "Your pick, cleaned up",
+    meaning: "Concept 2 redrawn closer to El Nido's real towers: steep sides, rounded tops, an island in front of the bigger cliffs. The water lines now taper from thin to thick, so they look drawn rather than stamped. Clearly El Nido, but it doesn't yet say anything about your stays." },
+  { n: 2, name: "Cliffs through an arched window", verdict: "strong", label: "Recommended",
+    meaning: "The karst seen through one of your arches: the view from inside your stays. It joins both favourites into one idea, place and design. At 16 px the arch carries the icon and the cliffs become texture, which is fine." },
+  { n: 3, name: "Arch with a cliff skyline", verdict: "weak", label: "Risky",
+    meaning: "A single doorway shape whose top is the karst skyline, with water cut into its base. One solid shape, so it's strong as an icon. Honest catch: seen small, it reads more like a flame, a hand or a castle than an arch. I would not take this one forward." },
+  { n: 4, name: "Towers as arches", verdict: "", label: "Good story",
+    meaning: "El Nido's limestone towers drawn as arches of different heights, rising from the water. It's the collection idea (different stays, one language) told through the landscape. Not tied to a number; four towers just felt balanced." },
+  { n: 5, name: "Arch badge, cliffs cut out", verdict: "strong", label: "Recommended",
+    meaning: "A solid arch with the cliffs and water cut out in negative space. The strongest browser icon and Instagram avatar of this round, and it works stamped, embossed or on a sign at the property. Simpler than 2, slightly less poetic." },
+  { n: 6, name: "Monoline arch and cliffs", verdict: "weak", label: "Weak small",
+    meaning: "The same idea as 2 drawn in one thin line. Elegant and light, like a hand sketch, and nice large on print. But the line gets too thin as an icon, and line logos are very common right now." }
+];
+
+const use = (id, cls="mark") => `<svg class="${cls}" viewBox="0 0 64 64" fill="currentColor" aria-hidden="true"><use href="#${id}"/></svg>`;
+const lockup = id => `<div class="lockup">${use(id)}<div class="wm"><b>El Nido</b><span>COLLECTION</span></div></div>`;
+
+document.getElementById("concepts").innerHTML = concepts.map(c => {
+  const id = "m" + c.n;
+  return `<section class="concept">
+    <div class="concept-head"><span class="num">${c.n}</span><h2>${c.name}</h2><span class="verdict ${c.verdict}">${c.label}</span></div>
+    <p class="meaning">${c.meaning}</p>
+    <div class="row">
+      <div class="tile light">${use(id)}<small>on light</small></div>
+      <div class="tile dark">${use(id)}<small>on dark</small></div>
+      <div class="tile mono">${use(id)}<small>one colour</small></div>
+      <div class="tile light lockup-tile">${lockup(id)}<small>with name</small></div>
+      <div class="tile dark lockup-tile">${lockup(id)}<small>with name, dark</small></div>
+      <div class="tile light"><div class="favs"><div class="fav f32">${use(id,"")}</div><div class="fav f16">${use(id,"")}</div></div><small>icon 32 / 16 px</small></div>
+    </div>
+  </section>`;
+}).join("");
+</script>
+</body>
+</html>

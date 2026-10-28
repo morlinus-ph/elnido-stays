@@ -25,7 +25,7 @@ Status: ✅ done · 🔄 in progress · ⬜ open
   - Airbnb host profile: https://www.airbnb.com/users/profile/1469882530907914187
   - This hub site needs a NEW umbrella brand (Phase 1b: name first). Repo name "elnido-stays" is a working title only.
 - Main goal of the site: (a) showcase all listings and send guests to Airbnb now; (b) direct inquiries/bookings later, once a PMS is in place. Must scale to more properties, incl. third-party properties under management.
-- Hosting: Cloudflare (Pages) — Netlify account is maxed out. Domains not bought yet.
+- Hosting: Cloudflare (Pages) — Netlify account is maxed out. Domain: elnidocollection.com (Cloudflare Registrar).
 - Tools: impeccable ✅ (available as skill) · Playwright ✅ (Node + Python; Python needs executable_path='/opt/pw-browsers/chromium') · DataForSEO ⬜ (connector present, use confirmed 2026-10-28) · Hosting MCP ⬜ (Cloudflare, to connect in Phase 7) · Form target ⬜
 - PriceLabs connector: account currently returns 0 listings.
 - Network: airbnb.com and instagram.com are blocked in this cloud environment; listing data must come from the user or be allowed in the network settings.
@@ -55,13 +55,14 @@ Every decision with a date, so it isn't re-discussed.
 - 2026-10-28: Positioning: elevated / luxe end of El Nido, owner-designed and owner-built, personal family hosting, one shared design language.
 - 2026-10-28: Plans: shared Instagram, blog for SEO/GEO, property sites link here ("dates unavailable → see our other stays"), search/booking engine later.
 - 2026-10-28: Favourite name: El Nido Collection (with "El"); also buy elnidostays.com as a redirect if free. Owner checks domains personally.
-- 2026-10-28: NAME CHOSEN: El Nido Collection. elnidocollection.com is available; owner to buy via Cloudflare Registrar.
+- 2026-10-28: NAME CHOSEN: El Nido Collection. elnidocollection.com BOUGHT. elnidostays.com taken (only elnidostays.ph, $45/yr: recommended to skip). Instagram: @elnidocollection and El Nido Stays handle secured.
+- 2026-10-28: Logo round 1: owner favours 2 Karst cliffs (fits El Nido) and 3 Arch within arch (fits the arches in the stays). Wants connection to the concept over pure looks.
 - 2026-10-28: No design references yet; owner imagines an Airbnb-like overview. Collect references in Phase 2.
 
 ## Open questions
 
-- Owner: buy elnidocollection.com (+ elnidostays.com if free), secure @elnidocollection on Instagram, IPOPHL trademark search (watch El Nido Resorts).
-- Logo round 1: owner picks 1–2 concepts from logo/entwuerfe/runde-1.html.
+- Owner: IPOPHL trademark search (watch El Nido Resorts).
+- Logo round 2: owner picks one from logo/entwuerfe/runde-2.html.
 - Still open from Phase 1: listing names + Airbnb links, proof (Superhost, rating, reviews), what stays off the page.
 
 ## Update workflow after go-live
