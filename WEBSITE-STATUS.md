@@ -22,7 +22,7 @@ Status: ✅ done · 🔄 in progress · ⬜ open
 - Existing website or brand: _open — see questions_
 - Main goal of the site: _open — see questions_
 - Hosting: _open — Netlify connector is available in this environment_
-- Tools: impeccable ✅ (available as skill) · Playwright ✅ (Node pre-installed; Python package installing) · DataForSEO ⬜ (connector present, use confirmed in Phase 2) · Hosting MCP ⬜ (Netlify connector present) · Form target ⬜
+- Tools: impeccable ✅ (available as skill) · Playwright ✅ (Node + Python; Python needs executable_path='/opt/pw-browsers/chromium') · DataForSEO ⬜ (connector present, use confirmed in Phase 2) · Hosting MCP ⬜ (Netlify connector present) · Form target ⬜
 - Also available: PriceLabs connector (can pull the real listing list)
 
 ## Brand
