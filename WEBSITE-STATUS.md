@@ -7,8 +7,8 @@ Status: ✅ done · 🔄 in progress · ⬜ open
 | Phase | Name | Status | Date |
 |---|---|---|---|
 | 0 | Setup | ✅ | 2026-10-28 |
-| 1 | Foundation (brand) | 🔄 | 2026-10-28 |
-| 2 | Research | ⬜ | |
+| 1 | Foundation (brand) | ✅ | 2026-10-28 |
+| 2 | Research | 🔄 | 2026-10-28 |
 | 3 | Copy | ⬜ | |
 | 4 | Design direction | ⬜ | |
 | 5 | Build | ⬜ | |
@@ -26,7 +26,7 @@ Status: ✅ done · 🔄 in progress · ⬜ open
   - This hub site needs a NEW umbrella brand (Phase 1b: name first). Repo name "elnido-stays" is a working title only.
 - Main goal of the site: (a) showcase all listings and send guests to Airbnb now; (b) direct inquiries/bookings later, once a PMS is in place. Must scale to more properties, incl. third-party properties under management.
 - Hosting: Cloudflare (Pages) — Netlify account is maxed out. Domain: elnidocollection.com (Cloudflare Registrar).
-- Tools: impeccable ✅ (available as skill) · Playwright ✅ (Node + Python; Python needs executable_path='/opt/pw-browsers/chromium') · DataForSEO ⬜ (connector present, use confirmed 2026-10-28) · Hosting MCP ⬜ (Cloudflare, to connect in Phase 7) · Form target ⬜
+- Tools: impeccable ✅ (available as skill) · Playwright ✅ (Node + Python; Python needs executable_path='/opt/pw-browsers/chromium') · DataForSEO ✅ (connected; ~$0.40 used in Phase 2, ~$4.10 left) · Hosting MCP ⬜ (Cloudflare, to connect in Phase 7) · Form target ⬜
 - PriceLabs connector: account currently returns 0 listings.
 - Network: full access granted 2026-10-28 (works).
 
@@ -66,7 +66,8 @@ Every decision with a date, so it isn't re-discussed.
 ## Open questions
 
 - Owner: IPOPHL trademark search (watch El Nido Resorts).
-- Phase 1 sign-off: owner confirms brand summary + PRODUCT.md.
+- Phase 2 sign-off: pick 1–2 references + palette in referenzen/auswahl.html; confirm "El Nido town" positioning.
+- Owners name on site: is Jessa's first name OK to show (in reviews)? Asked 2026-10-28.
 - Listings + proof pulled from Airbnb (recherche/listings.md). Still needed before Phase 3: owner's pick of guest quotes, new name of Cliff Tower.
 
 ## Update workflow after go-live
