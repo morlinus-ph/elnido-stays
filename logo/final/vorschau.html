@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Logo Family</title>
+<link rel="icon" href="favicon.svg">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#1d1b18; --paper:#f4f0e8; --muted:#6d675d; --line:#d9d2c4; --serif:"Newsreader",Georgia,serif; --sans:"Inter",system-ui,sans-serif; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:#fbf9f5; color:var(--ink); font-family:var(--sans); line-height:1.5; }
+  main { max-width:1100px; margin:0 auto; padding:48px 16px; }
+  h1 { font-family:var(--serif); font-weight:400; font-size:clamp(28px,4vw,40px); margin:0 0 8px; }
+  h2 { font-family:var(--serif); font-weight:400; font-size:24px; margin:40px 0 4px; }
+  p { color:var(--muted); max-width:700px; margin:0 0 16px; }
+  .row { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; }
+  .tile { border-radius:10px; min-height:180px; display:flex; align-items:center; justify-content:center; position:relative; padding:20px; }
+  .tile small { position:absolute; left:12px; bottom:8px; font-size:11px; opacity:.6; }
+  .light { background:var(--paper); color:var(--ink); } .dark { background:var(--ink); color:var(--paper); } .white { background:#fff; border:1px solid var(--line); color:#000; }
+  .tile > img { width:96px; height:96px; }
+  .wide { grid-column:span 2; } @media (max-width:560px){ .wide { grid-column:span 1; } }
+  .lockup { display:flex; align-items:center; gap:14px; }
+  .lockup img { width:56px; height:56px; }
+  .wm { display:flex; flex-direction:column; line-height:1; }
+  .wm b { font-family:var(--serif); font-weight:400; font-size:32px; }
+  .wm span { font-size:10px; letter-spacing:.38em; margin-top:6px; padding-left:2px; }
+  .stack { display:flex; flex-direction:column; align-items:center; gap:10px; }
+  .stack img { width:64px; height:64px; } .stack .wm { align-items:center; }
+  .favs { display:flex; align-items:end; gap:16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>El Nido Collection: logo family</h1>
+  <p>Combination B. The cliffs are the main logo; the arch with the same cliffs cut out is the icon. Black and cream for now. The family gets coloured once the palette is chosen in Phase 2, and the name is set in a stand-in typeface until Phase 4.</p>
+
+  <h2>Main logo</h2>
+  <p>For the website header, signs, print and anywhere the logo is shown large.</p>
+  <div class="row">
+    <div class="tile light wide"><div class="lockup"><img src="mark.svg" alt=""><div class="wm"><b>El Nido</b><span>COLLECTION</span></div></div><small>horizontal</small></div>
+    <div class="tile dark wide"><div class="lockup"><img src="mark-negative.svg" alt=""><div class="wm"><b>El Nido</b><span>COLLECTION</span></div></div><small>horizontal, negative</small></div>
+    <div class="tile light"><div class="stack"><img src="mark.svg" alt=""><div class="wm"><b>El Nido</b><span>COLLECTION</span></div></div><small>stacked</small></div>
+    <div class="tile light"><img src="mark.svg" alt=""><small>mark</small></div>
+    <div class="tile dark"><img src="mark-negative.svg" alt=""><small>mark, negative</small></div>
+    <div class="tile white"><img src="mark-solid.svg" alt=""><small>one colour, no tints (stamps, embroidery)</small></div>
+  </div>
+
+  <h2>Icon</h2>
+  <p>For the Instagram profile picture, browser tab, welcome cards, stamps and small places.</p>
+  <div class="row">
+    <div class="tile light"><img src="icon.svg" alt=""><small>icon</small></div>
+    <div class="tile dark"><img src="icon-negative.svg" alt=""><small>icon, negative</small></div>
+    <div class="tile white"><img src="icon-solid.svg" alt=""><small>one colour, no tints</small></div>
+    <div class="tile light"><div class="favs"><img src="favicon.svg" width="64" height="64" alt=""><img src="favicon.svg" width="32" height="32" alt=""><img src="favicon.svg" width="16" height="16" alt=""></div><small>browser icon 64 / 32 / 16</small></div>
+  </div>
+</main>
+</body>
+</html>
