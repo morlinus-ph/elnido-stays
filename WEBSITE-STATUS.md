@@ -65,6 +65,7 @@ Every decision with a date, so it isn't re-discussed.
 - 2026-10-29: Lead with "El Nido town" for now (all 5 stays in town). Revisit when a Lio listing is added.
 - 2026-10-29: Jessa's first name may appear: she is the name behind everything (not the face), hosts all listings; her family works in the team. Still no owner photos.
 - 2026-10-29: References round 1 (Plum Guide, Le Collectionist, Habitas, Namal, House Formo, Airbnb): no "wow". Liked: a strong entrance followed shortly by an overview of all stays (Habitas); centred hero/search (Plum Guide) maybe, side layout may suit better. Owner's own reference: The Hideout Bali (intro + overview of all listings). More options requested.
+- 2026-10-29: References round 2 (Zannier, Cap Karoso, Bambu Indah, Ulaman, Kisawa, NIHI, Esencia, Amanpulo): nice elements, no single site fits. Liked: Ulaman's navigation and its card shown over a map; some subtle animations. Decision proposed: stop hunting for one model; collect elements and sketch our own concept.
 - 2026-10-28: No design references yet; owner imagines an Airbnb-like overview. Collect references in Phase 2.
 
 ## Open questions
