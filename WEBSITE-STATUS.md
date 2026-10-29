@@ -61,6 +61,7 @@ Every decision with a date, so it isn't re-discussed.
 - 2026-10-28: Stack: Astro on Cloudflare Pages.
 - 2026-10-28: Key visitors: guests of one property (overflow), social/collab traffic, Google & AI searchers. Owners seeking management: later.
 - 2026-10-28: Proof available: Superhost, rating + review count, guest quotes (numbers still to come). Keep off the site: prices, exact addresses, owners' names/photos.
+- 2026-10-29: Owner loves the listing-photo overview (design language + perks at a glance) and the arch-framed photo cards. Palette: likes 2 Karst Green and 3 Lagoon (green/beige); 1 Plaster & Bamboo too brown. Final pick between 2 and 3 pending.
 - 2026-10-28: No design references yet; owner imagines an Airbnb-like overview. Collect references in Phase 2.
 
 ## Open questions
