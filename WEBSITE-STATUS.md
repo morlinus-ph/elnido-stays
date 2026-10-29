@@ -62,13 +62,15 @@ Every decision with a date, so it isn't re-discussed.
 - 2026-10-28: Key visitors: guests of one property (overflow), social/collab traffic, Google & AI searchers. Owners seeking management: later.
 - 2026-10-28: Proof available: Superhost, rating + review count, guest quotes (numbers still to come). Keep off the site: prices, exact addresses, owners' names/photos.
 - 2026-10-29: Owner loves the listing-photo overview (design language + perks at a glance) and the arch-framed photo cards. Palette: likes 2 Karst Green and 3 Lagoon (green/beige); 1 Plaster & Bamboo too brown. Final pick between 2 and 3 pending.
+- 2026-10-29: Lead with "El Nido town" for now (all 5 stays in town). Revisit when a Lio listing is added.
+- 2026-10-29: Jessa's first name may appear: she is the name behind everything (not the face), hosts all listings; her family works in the team. Still no owner photos.
+- 2026-10-29: References round 1 (Plum Guide, Le Collectionist, Habitas, Namal, House Formo, Airbnb): no "wow". Liked: a strong entrance followed shortly by an overview of all stays (Habitas); centred hero/search (Plum Guide) maybe, side layout may suit better. Owner's own reference: The Hideout Bali (intro + overview of all listings). More options requested.
 - 2026-10-28: No design references yet; owner imagines an Airbnb-like overview. Collect references in Phase 2.
 
 ## Open questions
 
 - Owner: IPOPHL trademark search (watch El Nido Resorts).
-- Phase 2 sign-off: pick 1–2 references + palette in referenzen/auswahl.html; confirm "El Nido town" positioning.
-- Owners name on site: is Jessa's first name OK to show (in reviews)? Asked 2026-10-28.
+- Phase 2 sign-off: references round 2 + final palette (2 Karst Green or 3 Lagoon, or green + teal accent).
 - Listings + proof pulled from Airbnb (recherche/listings.md). Still needed before Phase 3: owner's pick of guest quotes, new name of Cliff Tower.
 
 ## Update workflow after go-live

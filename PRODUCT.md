@@ -70,12 +70,12 @@ Not available: press features. Do not invent ratings, review counts, quotes, yea
 Must not appear on the site:
 - Prices (guests see them on Airbnb)
 - Exact addresses (area only)
-- The owners' names or photos (describe the family hosting without naming or showing them)
+- Photos of the owners. Jessa's first name may appear (confirmed 2026-10-29): she hosts all listings and is the name behind the collection, and her family works in the team. She is not the face of the brand.
 
 ## Product Principles
 
 1. **One collection, many doors.** Every stay page leads to the rest of the collection, so a guest who can't book one stay finds another.
 2. **Show the craft.** The owner-designed spaces and the shared design language are the main reason to choose these stays. Let the spaces carry the page.
-3. **Personal, not anonymous.** Make clear that owners and family host in person, without naming or showing them.
+3. **Personal, not anonymous.** Make clear that Jessa and her family host in person, without showing their faces.
 4. **Earn trust from strangers.** Searchers who arrive cold need real proof (Superhost, ratings, guest words) and useful El Nido knowledge before booking.
 5. **Built to grow.** Adding a stay, a property or direct booking should be adding content, not rebuilding the site.
